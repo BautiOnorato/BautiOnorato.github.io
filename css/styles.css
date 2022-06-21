@@ -6,9 +6,10 @@
     padding: 0;
 }
 
-body{
+html, body{
     overflow-x: hidden;
- }
+    max-width: 100%;
+}
 
 .primer-header {
     display: flex;
@@ -38,6 +39,7 @@ body{
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    width: 100vw;
 }
 
 .segundo-header img {
@@ -100,6 +102,7 @@ body{
     background-color: #FFFFFF;
     padding: 15px;
     border-radius: 5px;
+    text-align: center;
 }
 
 .banner div .parrafo-2-banner {
